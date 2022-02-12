@@ -6,7 +6,7 @@
 }
 
 .mainCon {
-    min-height: 100vh;    
+    min-height: 100vh;
 }
 
 /* HEADDER STYLING ----------------------------------------------------------- */
@@ -63,7 +63,7 @@
 
 /* FOOTER STYLING ----------------------------------------------------------- */
 .containerFoot {
-    width: 100vw;    
+    width: 100vw;
     color: white;
     text-align: center;
     padding: 10px;
@@ -88,6 +88,13 @@
     box-shadow: 1px 1px 30px #a1bbbb;
     border-radius: 10px;
 
+}
+
+.aboutme {
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(./images/avatar.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .aboutweb>h2 {
@@ -145,4 +152,50 @@
     background-color: #ff9a31;
     padding: 2px 10px;
     border-radius: 10px;
+}
+
+/* PRECAUTIONS PAGE STYLING ----------------------------------------------------------- */
+.conPrec {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    padding: 20px;
+    margin: auto;
+
+}
+
+.card {
+    flex: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 30px 5px;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 1px 1px 30px #a1bbbb;
+}
+
+.cardimg {
+    flex: 30%;
+    height: fit-content;
+}
+
+.cardimg>img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.cardtxt {
+    flex: 70%;
+    padding: 30px;
+}
+
+.cardtxt>h3 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.cardtxt>p> {
+    padding: 10px;
 }
