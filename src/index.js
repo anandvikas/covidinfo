@@ -3,12 +3,15 @@
 import reactDom from 'react-dom';
 
 // IMPORTING COMPONENTS AND CSS FILE -------------------------
+import './index.css'
 import Headder from './Headder'
 import Navbar from './Navbar'
+import Footer from './Footer'
+
+import Home from './Home'
 // import About from './About';
-import Footer from './Footer';
-import Precautions from './Precautions';
-import './index.css'
+// import Precautions from './Precautions';
+
 
 // // RENDER OF 'about' PAGE ----------------------------- 
 // reactDom.render(
@@ -19,10 +22,18 @@ import './index.css'
 //     <Footer />
 //   </>, document.getElementById('root'));
 
-// RENDER OF 'precautions' PAGE ----------------------------- 
+// // RENDER OF 'precautions' PAGE ----------------------------- 
+// reactDom.render(<>
+//   <Headder />
+//   <Navbar />
+//   <Precautions />
+//   <Footer />
+// </>, document.getElementById('root'));
+
+// RENDER OF 'home' PAGE ----------------------------- 
 reactDom.render(<>
   <Headder />
-  <Navbar />
-  <Precautions />
+  <Navbar />  
+  <Home />
   <Footer />
 </>, document.getElementById('root'));
