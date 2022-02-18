@@ -1,0 +1,116 @@
+/* HOME PAGE CONTAINER 1 --------------------------------------------------- */
+.con1home {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
+    min-height: 500px;
+}
+
+.con1home>.con1_text {
+    flex: 30%;
+    padding: 20px;
+}
+
+.con1_text>h1 {
+    font-weight: lighter;
+    font-size: 50px;
+    margin: 0px;
+    padding: 10px 10px;
+}
+
+.con1_text>h2 {
+    margin: 0px;
+    padding: 10px 10px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+#totalConfirmed,
+#totalDeaths {
+    font-weight: bold;
+    color: red;
+}
+
+.con1home>.con1_img {
+    flex: 70%;
+}
+
+.con1_img>img {
+    display: none;
+    width: 80%;
+    margin: auto;
+    transition: .5s;
+}
+
+#img1 {
+    display: block;
+}
+
+.con1_img>img {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* HOME PAGE CONTAINER 2 --------------------------------------------------- */
+.con2home, .con2vaccination {
+    background-color: #edffff;
+    padding: 20px;
+    margin: 20px 0px;
+    min-height: 500px;
+}
+
+.con2home>h2 {
+    font-weight: lighter;
+    font-size: 40px;
+    margin: 0px;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+#table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+#table td {
+    padding: 8px;
+    font-weight: 500;
+}
+
+#table tr:hover {
+    background-color: #ff9a31;
+    transition: .2s;
+}
+
+#table th {
+    padding: 12px 8px;
+    text-align: left;
+    background-color: #017e7e;
+    color: white;
+}

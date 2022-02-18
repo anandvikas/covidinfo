@@ -1,11 +1,11 @@
 // 'PrecautionsData.jsx' CONTAINS ALL THE NECESSARY PRECAUTIONS IN AN ARRAY 
 
 // IMPORTING THE IMAGES 
-import vaccinated from './images/vaccinated.JPG';
-import wearmask from './images/wearmask.JPG';
-import socialdis from './images/socialdis.JPG';
-import washhands from './images/washhands.JPG';
-import quarentine from './images/quarentine.JPG';
+import vaccinated from '../images/vaccinated.JPG';
+import wearmask from '../images/wearmask.JPG';
+import socialdis from '../images/socialdis.JPG';
+import washhands from '../images/washhands.JPG';
+import quarentine from '../images/quarentine.JPG';
 
 // DEFINING THE ARRAY 
 const PrecData = [
