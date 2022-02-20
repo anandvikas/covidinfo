@@ -2,7 +2,8 @@
 import Header from './header/Header'
 import Navbar from './navbar/Navbar'
 import Footer from './footer/Footer'
-import Home from './home/Home'
+// import Home from './home/Home'
+import Vaccination from './vaccination/Vaccination'
 // import Precautions from './precautions/Precautions'
 // import About from './about/About'
 
@@ -16,7 +17,8 @@ const App = () =>{
         <>
             <Header/>
             <Navbar/>
-            <Home/>
+            {/* <Home/> */}
+            <Vaccination/>
             {/* <About/> */}
             {/* <Precautions/> */}
             <Footer/>

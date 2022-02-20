@@ -4,7 +4,8 @@ import './home.css'
 // IMPORTING COMPONENTS -----------------------------------------
 import GlobalData from "./GlobalData";
 import Top10 from "./Top10";
-import { FetchApi1 } from "./FetchApi";
+import CountrySearch from './CountrySearch';
+import { FetchApi1 } from "../fetchapi/FetchApi";
 
 // COMPONENT ------------------------------------------------
 const Home = () => {  
@@ -12,7 +13,8 @@ const Home = () => {
     return (
         <>
             <GlobalData/>      
-            <Top10/>      
+            <Top10/> 
+            <CountrySearch/>     
         </>
     );
 }

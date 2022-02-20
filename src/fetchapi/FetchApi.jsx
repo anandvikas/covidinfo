@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-var data = ''
-
+var data1 = ''
 const FetchApi1 = () => {
     const [content, update] = useState("Loading...");
     // useEffect will prevent calling the api again and again 
@@ -16,11 +15,10 @@ const FetchApi1 = () => {
         }
         FetchData();
     }, [])
-    data = content;
+    data1 = content;
 }
 
 const Api1 = () => {
-    return data;
+    return data1;
 }
-
-export {FetchApi1, Api1}
+export { FetchApi1, Api1}

@@ -1,0 +1,70 @@
+.con2vaccination {
+    background-color: #edffff;
+    padding: 20px;
+    margin: 20px 0px;
+    min-height: 500px;
+}
+
+#table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+#table td {
+    padding: 8px;
+    font-weight: 500;
+}
+
+#table tr:hover {
+    background-color: #ff9a31;
+    transition: .2s;
+}
+
+#table th {
+    padding: 12px 8px;
+    text-align: left;
+    background-color: #017e7e;
+    color: white;
+}
+
+.con1vaccination {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+}
+
+.con1vaccination>h1 {
+    flex: 50%;
+    margin: 0px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.pinSearch {
+    flex: 50%;
+    text-align: center;
+    font-weight: lighter;
+}
+#myInput2 {
+    max-width: 500px;
+    width: 70%;
+    padding: 10px 20px;
+    border: none;
+    border: 2px solid #017e7e;
+    margin: 5px;
+    border-radius: 30px;
+    font-size: 15px;
+    outline: none;
+}
+#searchButton2 {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: #017e7e;
+    color: white;
+    font-size: 15px;
+    outline: none;
+}

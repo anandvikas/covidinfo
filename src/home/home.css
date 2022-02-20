@@ -114,3 +114,43 @@
     background-color: #017e7e;
     color: white;
 }
+
+/* COUNTRY SEARCH CONTAINER ------------------------------------ */
+.countrySearch {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.countrySearch>div {
+    display: inline;
+    width: fit-content;
+}
+
+#myInput{
+    max-width: 500px;
+    width: 70%;
+    padding: 10px 20px;
+    border: none;
+    border: 2px solid #017e7e;
+    margin: 5px;
+    border-radius: 30px;
+    font-size: 15px;
+    outline: none;
+}
+
+#searchButton{
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: #017e7e;
+    color: white;
+    font-size: 15px;
+    outline: none;
+}
+
+#countryResult {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}

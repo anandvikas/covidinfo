@@ -5,7 +5,7 @@ import slide1 from '../images/slide1.JPG';
 import slide2 from '../images/slide2.JPG';
 import slide3 from '../images/slide3.JPG';
 // IMPORTING API DATA -----------------------------------
-import { Api1 } from "./FetchApi";
+import { Api1 } from "../fetchapi/FetchApi";
 
 // IMAGE SLIDESHOW ----------------------------------------
 const images = [slide1, slide2, slide3]

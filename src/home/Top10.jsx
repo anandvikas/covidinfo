@@ -1,5 +1,5 @@
 // IMPORTING API DATA -------------------------------
-import { Api1 } from "./FetchApi";
+import { Api1 } from "../fetchapi/FetchApi";
 
 // THIS WILL RETURN TOP 10 INFECTED COUNTRIES ---------------------------------
 const Top10data = () => {
