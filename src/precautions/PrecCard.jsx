@@ -6,8 +6,8 @@ const PrecCard = (props)=>{
             <div className="card">
                 <div className="cardimg"><img src={props.img} alt={props.alt} /></div>
                 <div className="cardtxt">
-                    <h3>{props.heading}</h3>
-                    <p>{props.para}</p>
+                    <h3 className="cardtxtH3">{props.heading}</h3>
+                    <p className="cardtxtP">{props.para}</p>
                 </div>
             </div>
         </div>

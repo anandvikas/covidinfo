@@ -2,6 +2,10 @@
 import AboutWeb from "./AboutWeb";
 import AboutMe from "./AboutMe";
 
+// IMPORTING CSS ---------------------------------------
+import './about.css'
+
+// COMPONENT ---------------------------------------
 function About() {
     return (
         <div className="conAbout">

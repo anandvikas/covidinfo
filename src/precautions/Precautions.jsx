@@ -2,7 +2,9 @@
 import PrecData from "./PrecautionsData";
 import PrecCard from './PrecCard';
 
-
+// IMPORTING CSS ---------------------------------------
+import './precautions.css'
+// COMPONENT -------------------------------------
 const Precautions = () => {
     return (
         <>

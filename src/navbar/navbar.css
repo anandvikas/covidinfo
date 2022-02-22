@@ -1,0 +1,66 @@
+/* NAVBAR STYLING --------------------------------------- */
+.conNav{
+    display: flex;
+    flex-wrap: nowrap;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+#responsiveIcon{
+    flex: 5%;    
+    padding: calc(var(--funit)*4) calc(var(--funit)*20);
+    text-decoration: none;
+    font-size: calc(var(--funit)*10);
+    color: white;
+    background-color: #017e7e;
+    text-align: right;
+    border: none;
+    outline: none;   
+    cursor: pointer;
+
+    display: none;
+}
+
+.conNavLink {
+    flex: 95%;    
+    display: flex;
+    align-items: center;    
+}
+
+.navlink {
+    flex: 25%;    
+    padding: calc(var(--funit)*4) calc(var(--funit)*20);
+    text-decoration: none;
+    font-size: calc(var(--funit)*12);
+    /* font-weight: bold; */
+    color: white;
+    background-color: #017e7e;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;    
+}
+
+.navlink:hover {
+    background-color: #ff9a31;    
+    transition: .3s;
+}
+
+@media (max-width: 600px) {
+    .conNav{
+        flex-direction: column;
+    }
+    .conNavLink{
+        flex-direction: column;
+        display: none;
+    }
+    .navlink{
+        width: 100%;
+    }
+    #responsiveIcon{
+        display: block;
+    }
+    .visible{
+        display: block;
+    }
+  }

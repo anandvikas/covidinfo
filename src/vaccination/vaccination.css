@@ -1,19 +1,65 @@
-.con2vaccination {
-    background-color: #edffff;
-    padding: 20px;
-    margin: 20px 0px;
-    min-height: 500px;
+.con1vaccination {
+    display: flex;
+    flex-wrap: wrap;
+    padding: calc(var(--funit)*40) calc(var(--funit)*20);
 }
 
-#table {
+.con1vaccination>.con1vaccinationH1 {
+    flex: 40%;
+    margin: 0px;
+    text-align: center;
+    font-size: calc(var(--funit)*30);
+    font-weight: lighter;
+    padding: calc(var(--funit)*18);
+}
+
+.pinSearch {
+    flex: 50%;
+    text-align: center;
+    font-weight: lighter;
+    padding: calc(var(--funit)*20);
+}
+
+#myInput2 {
+    max-width: 50vh;
+    width: 70%;
+    padding: calc(var(--funit)*5) calc(var(--funit)*10);
+    border: none;
+    border: calc(var(--funit)*1.5) solid #017e7e;
+    margin: calc(var(--funit)*5);
+    border-radius: calc(var(--funit)*30);
+    font-size: calc(var(--funit)*12);
+    outline: none;
+}
+
+#searchButton2 {
+    width: calc(var(--funit)*80);
+    padding: calc(var(--funit)*6);
+    border: none;
+    border-radius: calc(var(--funit)*30);
+    background-color: #017e7e;
+    color: white;
+    font-size: calc(var(--funit)*12);
+    outline: none;
+}
+
+.con2vaccination {
+    background-color: #edffff;
+    padding: calc(var(--funit)*18);
+    margin: calc(var(--funit)*18) 0px;
+    min-height: 50vh;
+}
+
+/* #table {
     margin: auto;
     border-collapse: collapse;
-    width: 80%;
+    width: calc(var(--funit)*750);    
 }
 
 #table td {
-    padding: 8px;
-    font-weight: 500;
+    font-size: calc(var(--funit)*12);
+    padding: calc(var(--funit)*8);
+    font-weight: 500;    
 }
 
 #table tr:hover {
@@ -22,49 +68,16 @@
 }
 
 #table th {
-    padding: 12px 8px;
+    font-size: calc(var(--funit)*12);
+    padding: calc(var(--funit)*12) calc(var(--funit)*8);
     text-align: left;
     background-color: #017e7e;
-    color: white;
-}
+    color: white;    
+} */
 
-.con1vaccination {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 50px 20px;
-}
-
-.con1vaccination>h1 {
-    flex: 50%;
-    margin: 0px;
-    text-align: center;
-    font-size: 40px;
-    font-weight: lighter;
-}
-
-.pinSearch {
-    flex: 50%;
-    text-align: center;
-    font-weight: lighter;
-}
-#myInput2 {
-    max-width: 500px;
-    width: 70%;
-    padding: 10px 20px;
-    border: none;
-    border: 2px solid #017e7e;
-    margin: 5px;
-    border-radius: 30px;
-    font-size: 15px;
-    outline: none;
-}
-#searchButton2 {
-    width: 100px;
-    padding: 10px;
-    border: none;
-    border-radius: 30px;
-    background-color: #017e7e;
-    color: white;
-    font-size: 15px;
-    outline: none;
-}
+/* MEDIA QURIES ---------------------------------- */
+@media (max-width: 700px) {
+    .con1vaccination{
+        flex-direction: column;
+    }    
+  }

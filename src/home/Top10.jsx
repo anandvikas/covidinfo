@@ -52,7 +52,7 @@ function sortData(Api1data) {
 const Top10 = () => {
     return (
         <div className="con2home">
-            <h2>Top 10 most infected countries</h2>
+            <h2 className="con2homeH2">Top 10 most infected countries</h2>
             <table id="table">
                 <thead>
                     <tr>

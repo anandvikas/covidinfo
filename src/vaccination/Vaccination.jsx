@@ -69,7 +69,7 @@ const Vaccination = () => {
     return (
         <>
             <div className="con1vaccination">
-                <h1>Search for Vaccination slot (India)</h1>
+                <h1 className="con1vaccinationH1">Search for Vaccination slot (India)</h1>
                 <div className="pinSearch">
                     <input id="myInput2" type="number" name="myRegion" placeholder="Enter the Pin Code" />
                     <button id="searchButton2" onClick={readData}>Search</button>

@@ -1,31 +1,31 @@
 /* HOME PAGE CONTAINER 1 --------------------------------------------------- */
 .con1home {
-    max-width: 1200px;
+    max-width: calc(var(--funit)*750);
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    padding: 10px;
+    padding: calc(var(--funit)*10);
     align-items: center;
-    min-height: 500px;
+    /* min-height: 500px; */
 }
 
 .con1home>.con1_text {
     flex: 30%;
-    padding: 20px;
+    padding: calc(var(--funit)*10);
 }
 
 .con1_text>h1 {
     font-weight: lighter;
-    font-size: 50px;
+    font-size: calc(var(--funit)*40);
     margin: 0px;
-    padding: 10px 10px;
+    padding: calc(var(--funit)*5);
 }
 
 .con1_text>h2 {
     margin: 0px;
-    padding: 10px 10px;
+    padding: calc(var(--funit)*5);
     font-weight: lighter;
-    font-size: 20px;
+    font-size: calc(var(--funit)*15);
 }
 
 #totalConfirmed,
@@ -77,30 +77,32 @@
 }
 
 /* HOME PAGE CONTAINER 2 --------------------------------------------------- */
-.con2home, .con2vaccination {
+.con2home{
     background-color: #edffff;
-    padding: 20px;
-    margin: 20px 0px;
-    min-height: 500px;
+    padding: calc(var(--funit)*18);
+    margin: calc(var(--funit)*18) 0px;
+    min-height: 50vh;
 }
 
-.con2home>h2 {
+.con2home>.con2homeH2 {
     font-weight: lighter;
-    font-size: 40px;
+    font-size: calc(var(--funit)*30);
     margin: 0px;
-    padding: 10px 10px;
+    padding: calc(var(--funit)*10);
     text-align: center;
 }
 
 #table {
     margin: auto;
     border-collapse: collapse;
-    width: 80%;
+    width: 75%;
+    /* width: fit-content; */
 }
 
 #table td {
-    padding: 8px;
-    font-weight: 500;
+    font-size: calc(var(--funit)*12);
+    padding: calc(var(--funit)*8);
+    font-weight: 500;    
 }
 
 #table tr:hover {
@@ -109,15 +111,16 @@
 }
 
 #table th {
-    padding: 12px 8px;
+    font-size: calc(var(--funit)*12);
+    padding: calc(var(--funit)*12) calc(var(--funit)*8);
     text-align: left;
     background-color: #017e7e;
-    color: white;
+    color: white;    
 }
 
 /* COUNTRY SEARCH CONTAINER ------------------------------------ */
 .countrySearch {
-    padding: 50px 20px;
+    padding: calc(var(--funit)*40) calc(var(--funit)*20);
     text-align: center;
 }
 
@@ -127,30 +130,43 @@
 }
 
 #myInput{
-    max-width: 500px;
+    max-width: 50vh;
     width: 70%;
-    padding: 10px 20px;
+    padding: calc(var(--funit)*5) calc(var(--funit)*10);
     border: none;
-    border: 2px solid #017e7e;
-    margin: 5px;
-    border-radius: 30px;
-    font-size: 15px;
+    border: calc(var(--funit)*1.5) solid #017e7e;
+    margin: calc(var(--funit)*5);
+    border-radius: calc(var(--funit)*30);
+    font-size: calc(var(--funit)*12);
     outline: none;
 }
 
 #searchButton{
-    width: 100px;
-    padding: 10px;
+    width: calc(var(--funit)*80);
+    padding: calc(var(--funit)*6);
     border: none;
-    border-radius: 30px;
+    border-radius: calc(var(--funit)*30);
     background-color: #017e7e;
     color: white;
-    font-size: 15px;
+    font-size: calc(var(--funit)*12);
     outline: none;
 }
 
 #countryResult {
     text-align: center;
-    padding: 20px;
-    font-size: 20px;
+    padding: calc(var(--funit)*20);
+    font-size: calc(var(--funit)*15);
 }
+
+/* MEDIA QUERIES ------------------------------------ */
+@media (max-width: 700px) {
+    .con1home{
+        flex-direction: column;
+    }
+    .con2home>h2{
+        font-size: 30px;
+    }
+    #table{
+        width: 95%;
+    }
+  }

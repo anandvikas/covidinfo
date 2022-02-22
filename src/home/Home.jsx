@@ -2,14 +2,14 @@
 import './home.css'
 
 // IMPORTING COMPONENTS -----------------------------------------
+import { FetchApi1 } from '../fetchapi/FetchApi';
 import GlobalData from "./GlobalData";
 import Top10 from "./Top10";
 import CountrySearch from './CountrySearch';
-import { FetchApi1 } from "../fetchapi/FetchApi";
 
 // COMPONENT ------------------------------------------------
-const Home = () => {  
-    FetchApi1();      
+const Home = () => {     
+    FetchApi1(); 
     return (
         <>
             <GlobalData/>      

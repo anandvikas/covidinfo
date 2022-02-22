@@ -1,0 +1,53 @@
+/* PRECAUTIONS PAGE STYLING ----------------------------------------------------------- */
+.conPrec {    
+    max-width: calc(var(--funit)*750);
+    padding: calc(var(--funit)*15);
+    margin: auto;
+}
+
+.card {    
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: calc(var(--funit)*20) calc(var(--funit)*5);
+    padding: calc(var(--funit)*10);
+    border-radius: calc(var(--funit)*10);
+    align-items: center;
+    box-shadow: calc(var(--funit)*1) calc(var(--funit)*1) calc(var(--funit)*10) #a1bbbb;
+}
+
+.cardimg {
+    flex: 30%;
+    height: fit-content;
+}
+
+.cardimg>img {
+    width: 100%;
+    max-width: calc(var(--funit)*200);
+    border-radius: calc(var(--funit)*20);    
+}
+
+.cardtxt {
+    flex: 70%;
+    padding: calc(var(--funit)*20);    
+}
+
+.cardtxt>.cardtxtH3 {
+    font-size: calc(var(--funit)*24);
+    font-weight: lighter;
+}
+
+.cardtxt>.cardtxtP {
+    /* padding: calc(var(--funit)*10); */
+    font-size: calc(var(--funit)*12);
+}
+
+/* MEDIA QUERY ------------------------ */
+@media (max-width: 700px){
+    .card{
+        flex-direction: column;
+    }
+    .cardimg, .cardtxt {
+        flex: 100%;
+    }
+}

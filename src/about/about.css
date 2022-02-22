@@ -1,0 +1,90 @@
+/* ABOUT PAGE STYLING ----------------------------------------------------------- */
+.conAbout {
+    max-width: calc(var(--funit)*900);
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: calc(var(--funit)*8);
+    justify-content: space-around;
+}
+
+.aboutweb, .aboutme {
+    flex: 40%;
+    margin: calc(var(--funit)*20);
+    padding: calc(var(--funit)*15);
+    box-shadow: calc(var(--funit)*1) calc(var(--funit)*1) calc(var(--funit)*10) #a1bbbb;
+    border-radius: calc(var(--funit)*10);
+
+}
+
+.aboutme {
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../images/avatar.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aboutwebH2 {
+    font-size: calc(var(--funit)*35);
+    padding: calc(var(--funit)*15) calc(var(--funit)*10);
+    font-weight: lighter;
+
+}
+
+.aboutwebH3 {
+    padding: calc(var(--funit)*5) calc(var(--funit)*15);
+    font-size: calc(var(--funit)*25);
+    border-left: calc(var(--funit)*8) solid #ff9a31;
+    font-weight: lighter;
+}
+
+.aboutwebUl {
+    padding: calc(var(--funit)*5) calc(var(--funit)*15);
+    list-style: none;
+    border-left: calc(var(--funit)*2) solid #ff9a31;
+}
+
+.aboutwebLi {
+    padding: calc(var(--funit)*3) calc(var(--funit)*10);
+    font-size: calc(var(--funit)*12);
+}
+
+.aboutmeH2 {
+    font-size: calc(var(--funit)*35);
+    padding: calc(var(--funit)*15) calc(var(--funit)*10);
+    font-weight: lighter;
+}
+
+.aboutmeH3 {
+    padding: calc(var(--funit)*5) calc(var(--funit)*15);
+    font-size: calc(var(--funit)*25);
+    border-left: calc(var(--funit)*8) solid #ff9a31;
+    font-weight: lighter;
+}
+
+.aboutmeH3>span {
+    text-shadow: calc(var(--funit)*2) calc(var(--funit)*2) calc(var(--funit)*4) #585858;
+}
+
+.aboutmeP {
+    padding: calc(var(--funit)*5) calc(var(--funit)*22);    
+    border-left: calc(var(--funit)*2) solid #ff9a31;
+    font-size: calc(var(--funit)*12);
+}
+
+.aboutmeA {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: #ff9a31;
+    padding: calc(var(--funit)*1) calc(var(--funit)*10);
+    border-radius: calc(var(--funit)*10);
+    font-size: calc(var(--funit)*12);
+}
+
+/* MEDIA QUERY ------------------------------------- */
+@media (max-width: 700px){
+    .conAbout{
+        flex-direction: column;
+    }
+}

@@ -41,7 +41,7 @@ const PrecData = [
         id: 5,
         img: quarentine,
         alt: 'quarentine',
-        heading: 'Follow recommendations for quarantine',
+        heading: 'Follow home quarantine',
         para: 'If you come into close contact with someone with COVID-19: follow CDC’s recommendations for quarantine.'
     }
 ]
