@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/covidinfo/static/css/main.c2b4399a.css",
+    "main.js": "/covidinfo/static/js/main.a57da1a3.js",
+    "static/media/slide2.JPG": "/covidinfo/static/media/slide2.db483ad233d9cf18efc0.JPG",
+    "static/media/slide1.JPG": "/covidinfo/static/media/slide1.8d8b4e558b018c165c1c.JPG",
+    "static/media/vaccinated.JPG": "/covidinfo/static/media/vaccinated.37f8d507972716a79fb9.JPG",
+    "static/media/quarentine.JPG": "/covidinfo/static/media/quarentine.e2e74085c9d547d97033.JPG",
+    "static/media/wearmask.JPG": "/covidinfo/static/media/wearmask.479c2dc43d44a8bf7822.JPG",
+    "static/media/slide3.JPG": "/covidinfo/static/media/slide3.31f1723e51a8e27e8cb8.JPG",
+    "static/media/socialdis.JPG": "/covidinfo/static/media/socialdis.12ee3c7a355184009f4a.JPG",
+    "static/media/washhands.JPG": "/covidinfo/static/media/washhands.bfded51b67769e894c89.JPG",
+    "static/media/avatar.JPG": "/covidinfo/static/media/avatar.5dd6fe2f20ae13cdae5d.JPG",
+    "index.html": "/covidinfo/index.html",
+    "main.c2b4399a.css.map": "/covidinfo/static/css/main.c2b4399a.css.map",
+    "main.a57da1a3.js.map": "/covidinfo/static/js/main.a57da1a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2b4399a.css",
+    "static/js/main.a57da1a3.js"
+  ]
+}
