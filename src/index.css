@@ -8,9 +8,9 @@
 
 /* DEFINING THE UNIT ------------------------------------- */
 :root{
-    --funit: .1vW;
+    --funit: 1.5px;
 }
-@media (max-width: 2000px){:root{ --funit: .06vw;}}
+/* @media (max-width: 2000px){:root{ --funit: .06vw;}}
 @media (max-width: 1800px){:root{ --funit: .08vw;}}
 @media (max-width: 1600px){:root{ --funit: .1vw;}}
 @media (max-width: 1400px){:root{ --funit: .12vw;}}
@@ -19,11 +19,19 @@
 @media (max-width: 800px){:root{ --funit: .2vw;}}
 @media (max-width: 600px){:root{ --funit: .24vw;}}
 @media (max-width: 500px){:root{ --funit: .32vw;}}
-@media (max-width: 400px){:root{ --funit: .4vw;}}
+@media (max-width: 400px){:root{ --funit: .4vw;}} */
 
 /* MAIN CONTAINER -------------------------------------- */
 .mainCon {
     min-height: 100vh;
+    /* border: 1px solid red; */
+    /* width: fit-content; */
+    max-width: 1600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
 }
 
 /* HEADDER STYLING ----------------------------------------------------------- */
@@ -40,13 +48,13 @@
 
 /* FOOTER STYLING ----------------------------------------------------------- */
 .containerFoot {
-    width: 100vw;
+    width: 100%;
     color: white;
     text-align: center;
     font-size: calc(var(--funit)*12);
     padding: calc(var(--funit)*5);
     background-color: #017e7e;
-
+    margin-top: auto;
 }
 
 

@@ -1,11 +1,12 @@
 /* ABOUT PAGE STYLING ----------------------------------------------------------- */
-.conAbout {
+.conAbout {   
     max-width: calc(var(--funit)*900);
-    margin: auto;
+    margin: 2px auto;
     display: flex;
     flex-wrap: wrap;
     padding: calc(var(--funit)*8);
     justify-content: space-around;
+    /* border: 1px solid red; */
 }
 
 .aboutweb, .aboutme {

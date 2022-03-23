@@ -9,7 +9,7 @@ import './about.css'
 function About() {
     return (
         <div className="conAbout">
-            <AboutWeb />
+            {/* <AboutWeb /> */}
             <AboutMe />
         </div>
     );

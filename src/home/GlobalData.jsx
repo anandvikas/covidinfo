@@ -16,7 +16,7 @@ const SlideImage = () => {
         const changeImg = () => {
             i = i + 1;
             updateImg(images[i-1])
-            if (i == images.length) {
+            if (i === images.length) {
                 i = 0
             }
         }
@@ -32,8 +32,8 @@ const SlideImage = () => {
 // COMPONENT --------------------------------------------
 const GlobalData = () => {
     var Api1data = Api1()
-    if (typeof (Api1data) == 'object') {
-        console.log('object')
+    if (typeof (Api1data) === 'object') {
+        // console.log('object')
         return (
             <>
                 <div div className="con1home" >
@@ -48,7 +48,7 @@ const GlobalData = () => {
         )
 
     } else {
-        console.log('string')
+        // console.log('string')
         return (
             <>
                 <div div className="con1home" >

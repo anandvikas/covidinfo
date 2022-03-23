@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { Route, Routes } from 'react-router-dom';
 
 // IMPORTING COMPONENTS ------------------------------------------
 import Header from './header/Header'
@@ -15,28 +15,18 @@ import './index.css'
 
 // COMPONENT -------------------------------------------
 
-const App = () => {    
-    const [page, updatePage] = useState(<><Home /></>)
-
-    // this will set home page as the current page 
-    const setHome = () => { updatePage(<><Home /></>) }
-    // this will set vaccination page as the current page 
-    const setVaccination = () => { updatePage(<><Vaccination /></>) }
-    // this will set precautions page as the current page 
-    const setPrecautions = () => { updatePage(<><Precautions /></>) }
-    // this will set about page as the current page 
-    const setAbout = () => { updatePage(<><About /></>) }
+const App = () => {      
 
     return (
         <>
             <Header />
-            <Navbar 
-                setHome = {setHome}
-                setVaccination = {setVaccination}
-                setPrecautions = {setPrecautions}
-                setAbout = {setAbout}
-            />
-            {page}
+            <Navbar/>            
+            <Routes>
+                <Route path='/covidinfo' element={<Home/>} />
+                <Route path='/covidinfo/vaccination' element={<Vaccination/>} />
+                <Route path='/covidinfo/precaution' element={<Precautions/>} />
+                <Route path='/covidinfo/about' element={<About/>} />
+            </Routes>
             <Footer />
         </>
     );

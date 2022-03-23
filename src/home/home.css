@@ -1,7 +1,7 @@
 /* HOME PAGE CONTAINER 1 --------------------------------------------------- */
 .con1home {
     max-width: calc(var(--funit)*750);
-    margin: auto;
+    margin: 30px auto;
     display: flex;
     flex-wrap: wrap;
     padding: calc(var(--funit)*10);
@@ -49,39 +49,14 @@
     display: block;
 }
 
-.con1_img>img {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-    from {
-        opacity: .4
-    }
-
-    to {
-        opacity: 1
-    }
-}
-
-@keyframes fade {
-    from {
-        opacity: .4
-    }
-
-    to {
-        opacity: 1
-    }
-}
 
 /* HOME PAGE CONTAINER 2 --------------------------------------------------- */
 .con2home{
     background-color: #edffff;
     padding: calc(var(--funit)*18);
     margin: calc(var(--funit)*18) 0px;
-    min-height: 50vh;
+    height: fit-content;
+    /* min-height: 50vh; */
 }
 
 .con2home>.con2homeH2 {
@@ -157,7 +132,17 @@
     padding: calc(var(--funit)*20);
     font-size: calc(var(--funit)*15);
 }
-
+/* PIE CHART-------------------------------------- */
+.chartData{
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+#myChart{
+    max-width: 100%;
+    
+}
 /* MEDIA QUERIES ------------------------------------ */
 @media (max-width: 700px) {
     .con1home{

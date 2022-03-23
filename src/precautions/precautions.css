@@ -2,7 +2,7 @@
 .conPrec {    
     max-width: calc(var(--funit)*750);
     padding: calc(var(--funit)*15);
-    margin: auto;
+    margin: 10px auto;
 }
 
 .card {    

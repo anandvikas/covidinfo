@@ -5,6 +5,7 @@
     position: sticky;
     top: 0px;
     z-index: 1;
+    
 }
 #responsiveIcon{
     flex: 5%;    
@@ -61,6 +62,6 @@
         display: block;
     }
     .visible{
-        display: block;
+        display: flex;
     }
   }

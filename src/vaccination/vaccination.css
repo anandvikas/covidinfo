@@ -47,7 +47,9 @@
     background-color: #edffff;
     padding: calc(var(--funit)*18);
     margin: calc(var(--funit)*18) 0px;
-    min-height: 50vh;
+    height: fit-content;
+    min-height: 200px;
+    
 }
 
 /* #table {

@@ -6,12 +6,12 @@ const FetchApi1 = () => {
     useEffect(() => {
         const FetchData = () => {
             fetch('https://api.covid19api.com/summary').then((res) => {
-                console.log('calling API ...')
+                // console.log('calling API ...')
                 return res.json();
             }).then((jsonData) => {
                 let arrData = [jsonData];
                 update(arrData);
-                console.log('API recieved')
+                // console.log('API recieved')
             })
         }
         FetchData();
