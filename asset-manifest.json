@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/covidinfo/static/css/main.c28ab4e8.css",
-    "main.js": "/covidinfo/static/js/main.a57da1a3.js",
+    "main.css": "/covidinfo/static/css/main.283b168e.css",
+    "main.js": "/covidinfo/static/js/main.593c407a.js",
     "static/media/slide2.JPG": "/covidinfo/static/media/slide2.db483ad233d9cf18efc0.JPG",
     "static/media/slide1.JPG": "/covidinfo/static/media/slide1.8d8b4e558b018c165c1c.JPG",
     "static/media/vaccinated.JPG": "/covidinfo/static/media/vaccinated.37f8d507972716a79fb9.JPG",
@@ -12,11 +12,11 @@
     "static/media/washhands.JPG": "/covidinfo/static/media/washhands.bfded51b67769e894c89.JPG",
     "static/media/avatar.JPG": "/covidinfo/static/media/avatar.5dd6fe2f20ae13cdae5d.JPG",
     "index.html": "/covidinfo/index.html",
-    "main.c28ab4e8.css.map": "/covidinfo/static/css/main.c28ab4e8.css.map",
-    "main.a57da1a3.js.map": "/covidinfo/static/js/main.a57da1a3.js.map"
+    "main.283b168e.css.map": "/covidinfo/static/css/main.283b168e.css.map",
+    "main.593c407a.js.map": "/covidinfo/static/js/main.593c407a.js.map"
   },
   "entrypoints": [
-    "static/css/main.c28ab4e8.css",
-    "static/js/main.a57da1a3.js"
+    "static/css/main.283b168e.css",
+    "static/js/main.593c407a.js"
   ]
 }
