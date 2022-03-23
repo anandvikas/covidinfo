@@ -29,7 +29,7 @@
 
 .navlink {
     flex: 25%;    
-    padding: calc(var(--funit)*4) calc(var(--funit)*20);
+    padding: calc(var(--funit)*4) calc(var(--funit)*25);
     text-decoration: none;
     font-size: calc(var(--funit)*12);
     /* font-weight: bold; */

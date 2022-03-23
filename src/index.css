@@ -18,8 +18,8 @@
 @media (max-width: 1000px){:root{ --funit: .16vw;}}
 @media (max-width: 800px){:root{ --funit: .2vw;}}
 @media (max-width: 600px){:root{ --funit: .24vw;}}
-@media (max-width: 500px){:root{ --funit: .28vw;}}
-@media (max-width: 400px){:root{ --funit: .34vw;}}
+@media (max-width: 500px){:root{ --funit: .32vw;}}
+@media (max-width: 400px){:root{ --funit: .4vw;}}
 
 /* MAIN CONTAINER -------------------------------------- */
 .mainCon {
